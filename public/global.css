@@ -1,0 +1,44 @@
+body {
+  background-color: #20262d;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.clusterContainer {
+  border-radius: 50%;
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  vertical-align: center;
+  background-color: green;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.markerClusterSmall > div {
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+}
+.markerClusterMedium > div {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+}
+.markerClusterLarge > div {
+  width: 60px;
+  height: 60px;
+  font-size: 1.6rem;
+
+}
+.markerClusterLargeXL > div {
+  width: 80px;
+  height: 80px;
+  font-size: 1.8rem;
+}
+.markerClusterLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
