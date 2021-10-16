@@ -13,7 +13,6 @@
     "moduleResolution": "node",
     "allowJs": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "strict": true,
