@@ -1,0 +1,15 @@
+.orderCard {
+  padding: 10px;
+  border: 1px solid #2f2f2f;
+  margin: 5px 0;
+  background-color: #121212;
+  color: #fff;
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__type {
+    text-transform: capitalize;
+  }
+}
